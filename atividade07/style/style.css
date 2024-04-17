@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7e4e4;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.comodo {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comodo h2 {
+    margin-top: 0;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.lampadaAcesa {
+    width: 30px;
+    height: 30px;
+    background-color: #ffd700;
+    display: none;
+}
+
+.escondido{
+    display: none;
+}
+
+
+
+button {
+    margin-top: 10px;
+    background-color:#007bff;;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #0056b3;
+}

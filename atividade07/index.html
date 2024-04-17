@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Iluminação</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <h1>Iluminação</h1>
+    <div class="cards">
+        <div id="sala" class="comodo">
+            <h2>Sala</h2>
+            <button id="sala-ligar-btn">Ligar</button>
+            <button id="sala-desligar-btn">Desligar</button>
+            <img src="images/ligada.jpg" alt="Lampada Ligada" id="salaLigada" class="escondido">
+            <img src="images/desligada.jpg" alt="Lampada Desligada" id="salaDesligada">
+            <div id="sala-status" class="status"></div>
+        </div>
+        
+        <div id="cozinha" class="comodo">
+            <h2>Cozinha</h2>
+            <button id="cozinha-ligar-btn">Ligar</button>
+            <button id="cozinha-desligar-btn">Desligar</button>
+            <img src="images/ligada.jpg" alt="Lampada Ligada" id="cozinhaLigada" class="escondido">
+            <img src="images/desligada.jpg" alt="Lampada Desligada" id="cozinhaDesligada">
+            <div id="cozinha-status" class="status"></div>
+        </div>
+        
+        <div id="quarto" class="comodo">
+            <h2>Quarto</h2>
+            <button id="quarto-ligar-btn">Ligar</button>
+            <button id="quarto-desligar-btn">Desligar</button>
+            <img src="images/ligada.jpg" alt="Lampada Ligada" id="quartoLigada" class="escondido">
+            <img src="images/desligada.jpg" alt="Lampada Desligada" id="quartoDesligada">
+            <div id="quarto-status" class="status"></div>
+        </div>
+        
+        <div id="banheiro" class="comodo">
+            <h2>Banheiro</h2>
+            <button id="banheiro-ligar-btn">Ligar</button>
+            <button id="banheiro-desligar-btn">Desligar</button>
+            <img src="images/ligada.jpg" alt="Lampada Ligada" id="banheiroLigada" class="escondido">
+            <img src="images/desligada.jpg" alt="Lampada Desligada" id="banheiroDesligada">
+            <div id="banheiro-status" class="status"></div>
+        </div>
+    </div>
+
+    <script src="./script/light.js"></script>
+    <script src="./script/main.js"></script>
+</body>
+</html>
